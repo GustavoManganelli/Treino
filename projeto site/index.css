@@ -1,0 +1,35 @@
+body {
+    background: fixed;
+    background-color: darkgreen;
+}
+h1 {
+    color: whitesmoke;
+    border-radius: 20px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: chocolate;
+}
+p {
+    color: white;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+div {
+    color: white;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+h2 {
+    color: whitesmoke;
+}
+a {
+    color: gold;
+    background: left;
+    background-color: rgb(92, 39, 4);
+    font-size: x-large;
+}
+img {
+    position: absolute;
+    left: 861px;
+    top: 350px;
+}

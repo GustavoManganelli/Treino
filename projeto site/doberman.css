@@ -1,0 +1,23 @@
+body {
+    background: fixed;
+    background-color: black;
+}
+h1 {
+    color: honeydew;
+    font-family: 'Lucida Sans';
+}
+p {
+    color: honeydew;
+    font-size: x-large;
+    font-family: 'Lucida Sans';
+}
+div {
+    color: honeydew;
+    font-size: x-large;
+    font-family: 'Lucida Sans';
+}
+img {
+    position: absolute;
+   right: 200px;
+   top: 200px;
+ }
