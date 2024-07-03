@@ -1,0 +1,30 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background: fixed;
+    background-color: aquamarine;
+    font-family: 'Courier New';
+    font-size: x-large;
+}
+
+h1 {
+    container:inherit;
+    border: 2px;
+    border-style: dashed;
+    border-radius: 20px;
+    
+}
+
+ul {
+    margin: 10px;
+    padding: 10px;
+}
+
+ul li {
+    border-left: 3px solid;
+    cursor: pointer;
+    padding: 15px 10 px 15px 30px;
+    background-color: lightgreen;
+}
