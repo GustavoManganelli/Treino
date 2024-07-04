@@ -7,6 +7,9 @@ body {
     background-color: aquamarine;
     font-family: 'Courier New';
     font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -27,4 +30,33 @@ ul li {
     cursor: pointer;
     padding: 15px 10 px 15px 30px;
     background-color: lightgreen;
+}
+#btn,
+#input {
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+#btn {
+    background-color: white;
+    color: black;
+    width: 50px;
+    height:  50px;
+    cursor: pointer;
+}
+#btn:hover {
+    background-color: coral;
+
+}
+#lista {
+    display: flex;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+#check {
+ background-color: green;
+ display: flex;
+ justify-content: right;
 }
