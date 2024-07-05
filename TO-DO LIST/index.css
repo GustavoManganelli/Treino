@@ -1,9 +1,12 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
+
+
 body {
-    background: fixed;
+    
+    background: url(https://github.com/rodolfomori/todo-list-yt/blob/master/img/background.png?raw=true);
     background-color: aquamarine;
     font-family: 'Courier New';
     font-size: x-large;
@@ -13,11 +16,11 @@ body {
 }
 
 h1 {
-    container:inherit;
+    container: inherit;
     border: 2px;
     border-style: dashed;
     border-radius: 20px;
-    
+
 }
 
 ul {
@@ -31,32 +34,59 @@ ul li {
     padding: 15px 10 px 15px 30px;
     background-color: lightgreen;
 }
-#btn,
+
+#btn {
+        background: fixed;
+        background-color: burlywood;
+        border: none;
+        border-radius: 2rem;
+        font-size: 1rem;
+        outline: none;
+        padding: 1px;
+        height: auto;
+        width: 2rem;
+}
+
 #input {
+    background-color: darkseagreen;
     border: none;
     border-radius: 2rem;
     font-size: 1rem;
     outline: none;
     padding: 1rem;
 }
+
 #btn {
     background-color: white;
     color: black;
     width: 50px;
-    height:  50px;
+    height: 50px;
     cursor: pointer;
 }
+
 #btn:hover {
     background-color: coral;
 
 }
+
 #lista {
     display: flex;
     font-size: 1rem;
     text-transform: capitalize;
 }
+
 #check {
- background-color: green;
- display: flex;
- justify-content: right;
+    background-color: green;
+    display: flex;
+    justify-content: right;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+}
+#btnx {
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
 }
