@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
+    
 }
 
 
 
 body {
-    
+
     background: url(https://github.com/rodolfomori/todo-list-yt/blob/master/img/background.png?raw=true);
     background-color: aquamarine;
     font-family: 'Courier New';
@@ -20,31 +21,47 @@ h1 {
     border: 2px;
     border-style: dashed;
     border-radius: 20px;
-
 }
 
 ul {
     margin: 10px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(103, 187, 103);
+    font-size: 1rem;
+    text-transform: capitalize;
 }
 
-ul li {
+li {
     border-left: 3px solid;
     cursor: pointer;
     padding: 15px 10 px 15px 30px;
     background-color: lightgreen;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-bottom: 10px;
+
 }
 
 #btn {
-        background: fixed;
-        background-color: burlywood;
-        border: none;
-        border-radius: 2rem;
-        font-size: 1rem;
-        outline: none;
-        padding: 1px;
-        height: auto;
-        width: 2rem;
+    background: fixed;
+    background-color: burlywood;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    outline: none;
+    padding: 1px;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 #input {
@@ -56,37 +73,36 @@ ul li {
     padding: 1rem;
 }
 
-#btn {
-    background-color: white;
-    color: black;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-
 #btn:hover {
     background-color: coral;
 
 }
-
-#lista {
-    display: flex;
-    font-size: 1rem;
-    text-transform: capitalize;
-}
+   
 
 #check {
     background-color: green;
     display: flex;
-    justify-content: right;
+justify-content: right;
     border: none;
-    border-radius: 15px;
+    border-radius: 15rem;
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
+    margin: 0 6px;
+    height: 2rem;
 }
+
 #btnx {
     background-color: red;
+    display: flex;
+    justify-content: right;
     border: none;
-    border-radius: 15px;
-    padding: 10px;
+    border-radius: 15rem;
+    padding: 8px;
+    cursor: pointer;
+    margin: 0 6px;
+    height: 2rem;
+}
+.container {
+    display: flex;
+    justify-content: right;
 }

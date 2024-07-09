@@ -1,15 +1,11 @@
+const button = document.querySelector('.btn')
+const input = document.querySelector('.input')
 
-const input = document.querySelector("#input")
-const ul = document.querySelector("#lista")
-
-
-
+let minhaLista = []
 
 
 
-
-
-function novaTarefa() {
-    let value = document.getElementById (btn)
-   
+function addTarefa() {
+    minhaLista.push(input.value)
+    console.log(minhaLista)
 }
